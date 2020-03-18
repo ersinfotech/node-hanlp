@@ -1,0 +1,23 @@
+{
+  "name": "node-hanlp",
+  "version": "1.0.0",
+  "description": "hanlp for nodejs",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ersinfotech/node-hanlp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ersinfotech/node-hanlp/issues"
+  },
+  "homepage": "https://github.com/ersinfotech/node-hanlp#readme",
+  "dependencies": {
+    "java": "^0.12.1"
+  }
+}
