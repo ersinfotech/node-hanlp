@@ -13,8 +13,21 @@ npm install @ersinfotech/node-hanlp
 下载HanLP相关数据以及examples中训练模型所需要的语料
 
 ```sh
+# 也可以手动下载并解压到 static 子目录即可
 sh download.sh
 ```
+
+## 环境变量配置
+
+### java 内存配置
+
+- 名称: `JAVA_OPTIONS`
+- 默认值: `-Xms512m -Xmx2014m`
+
+### HanLP hanlp.properties
+
+- 名称: `HANLP_PROPERTIES_PATH`
+- 默认值: `当前安装包/static`
 
 ## 示例
 
