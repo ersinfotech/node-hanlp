@@ -36,7 +36,7 @@ sh download.sh
 HanLP 自带其它接口，请参考 https://github.com/hankcs/pyhanlp
 
 ```javascript
-// node example/segement.js
+// node examples/segement.js
 
 const { HanLP, toJson } = require('..')
 
@@ -61,7 +61,7 @@ console.log(toJson(HanLP.segment('你好，欢迎在Python中调用HanLP的API')
 ### 进阶接口
 
 ```javascript
-// node example/tokenizer.js
+// node examples/tokenizer.js
 
 const { JClass, toJson } = require('..')
 const analyzer = JClass('com.hankcs.hanlp.model.perceptron.PerceptronLexicalAnalyzer')
@@ -86,7 +86,7 @@ wordList: [
 ### 训练模型
 
 ```javascript
-// node example/sentiment.js
+// node examples/sentiment.js
 
 const fs = require('fs')
 const { IOUtil, StaticPath, JClass } = require('..')
