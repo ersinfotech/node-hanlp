@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/ersinfotech/node-hanlp#readme",
   "dependencies": {
-    "java": "^0.12.1"
+    "java": "^0.12.2"
   }
 }
